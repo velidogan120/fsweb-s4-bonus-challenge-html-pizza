@@ -117,7 +117,7 @@ footer {
   padding: 58px 81px;
 }
 .home-banner {
-  background: url("assets/iteration-1/home-banner.png") no-repeat top
+  background: url("./public/assets/iteration-1/home-banner.png") no-repeat top
     center/400%;
   height: 100vh;
   width: 100%;
@@ -213,8 +213,8 @@ footer {
           line-height: 44px;
         }
         &:nth-child(1) {
-          background: url("assets/iteration-2/cta/kart-1.png") no-repeat
-            center/cover;
+          background: url("./public/assets/iteration-2/cta/kart-1.png")
+            no-repeat center/cover;
           h3 {
             font-size: 63px;
             font-family: "quattrocento", serif;
@@ -234,8 +234,8 @@ footer {
       width: 100%;
       .order-card {
         &:nth-child(1) {
-          background: url("assets/iteration-2/cta/kart-2.png") no-repeat
-            center/cover;
+          background: url("./public/assets/iteration-2/cta/kart-2.png")
+            no-repeat center/cover;
           h3 {
             font-size: 32px;
             font-weight: 600;
@@ -243,8 +243,8 @@ footer {
           }
         }
         &:nth-child(2) {
-          background: url("assets/iteration-2/cta/kart-3.png") no-repeat center
-            right/cover;
+          background: url("./public/assets/iteration-2/cta/kart-3.png")
+            no-repeat center right/cover;
           h3 {
             color: var(--dark-gray);
             span {
@@ -428,7 +428,8 @@ footer {
     margin-top: 10px;
   }
   .home-banner {
-    background: url("assets/iteration-1/home-banner.png") no-repeat center/cover;
+    background: url("./public/assets/iteration-1/home-banner.png") no-repeat
+      center/cover;
     padding: 80px;
     h2 {
       margin: 0;
